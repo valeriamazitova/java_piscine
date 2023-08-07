@@ -2,8 +2,14 @@ package ex00;
 
 public class User {
     private Integer id;
-    String name;
-    int balance;
+    private String name;
+    private int balance;
+
+    public User(Integer id, String name, int balance) {
+        this.id = id;
+        this.name = name;
+        setBalance(balance);
+    }
 
     public int getId() {
         return id;

@@ -7,11 +7,11 @@ public class Transaction {
         OUTCOME, INCOME
     }
 
-    UUID uuid;
-    User receiver;
-    User sender;
-    CategoryOfTransaction categoryOfTransaction; // outcome or income
-    int amount;
+    private UUID uuid;
+    private User receiver;
+    private User sender;
+    private CategoryOfTransaction categoryOfTransaction; // outcome or income
+    private int amount;
 
     public Transaction(UUID uuid, User receiver, User sender, CategoryOfTransaction categoryOfTransaction, int amount) {
         this.uuid = uuid;
