@@ -22,9 +22,6 @@ public class Program {
             vectorOfOccurrences2.openFileAndFillVector(args[1]);
 
             writeToResultFile(Arrays.toString(Dictionary.getDictionary().toArray()));
-//            System.out.println();
-//            System.out.println(Arrays.toString(vectorOfOccurrences1.getVectorOfOccurrences()));
-//            System.out.println(Arrays.toString(vectorOfOccurrences2.getVectorOfOccurrences()));
 
             Similarity similarity = new Similarity(vectorOfOccurrences1, vectorOfOccurrences2);
             System.out.print("Similarity = " + similarity.getSimilarityCalcResult());
