@@ -14,7 +14,14 @@ public class Program {
 
         henThread.start();
 
-//        printFromMainThread("Human", count);
+        try {
+            eggThread.join(); // Wait for eggThread to complete
+            henThread.join(); // Wait for henThread to complete
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        printFromMainThread("Human", count);
 
     }
 
@@ -24,7 +31,7 @@ public class Program {
         }
     }
 
-    private static int getCountFromArgs(String[] args) {
+    public static int getCountFromArgs(String[] args) {
         if (args.length != 1 || !args[0].startsWith("--count=")) {
             System.err.println("Required program arguments not found: --count=<int>");
             System.exit(-1);

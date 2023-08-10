@@ -6,14 +6,6 @@ public class MyThread extends Thread {
 
     private final String message;
 
-//    public void setMessage(String message) {
-//        this.message = message;
-//    }
-
-//    public void setCounter(Integer counter) {
-//        this.counter = counter;
-//    }
-
     public MyThread(String message, Integer counter) {
         this.message = message;
         this.counter = counter;
