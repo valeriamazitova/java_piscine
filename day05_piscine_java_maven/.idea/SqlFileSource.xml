@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlFileSource">
+    <option name="sources">
+      <map>
+        <entry key="$PROJECT_DIR$/Chat/src/main/resources/schema.sql" value="b4bc1888-6b58-41f3-9122-e88ce5105c78" />
+        <entry key="$PROJECT_DIR$/src/main/resources/data.sql" value="b4bc1888-6b58-41f3-9122-e88ce5105c78" />
+        <entry key="$PROJECT_DIR$/src/main/resources/schema.sql" value="b4bc1888-6b58-41f3-9122-e88ce5105c78" />
+      </map>
+    </option>
+  </component>
+</project>
