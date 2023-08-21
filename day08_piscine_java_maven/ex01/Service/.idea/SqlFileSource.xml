@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlFileSource">
+    <option name="sources">
+      <map>
+        <entry key="$PROJECT_DIR$/src/main/resources/schema.sql" value="7c18c268-997d-43b8-8526-36e7940b5734" />
+      </map>
+    </option>
+  </component>
+</project>

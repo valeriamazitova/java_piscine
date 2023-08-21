@@ -1,0 +1,10 @@
+renderer/RendererErrImpl.class
+preprocessor/PreProcessorToUpperImpl.class
+printer/Printer.class
+preprocessor/PreProcessor.class
+renderer/Renderer.class
+app/Main.class
+printer/PrinterWithPrefixImpl.class
+preprocessor/PreProcessorToLower.class
+printer/PrinterWithDateTimeImpl.class
+renderer/RendererStandardImpl.class
